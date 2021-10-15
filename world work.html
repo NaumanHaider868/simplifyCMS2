@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/world work.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+	<title>HEXLAB</title>
+</head>
+<body>
+	<div class="top">
+		<div class="left_side">
+			<a class="micro">Microsoft Careers <i class="fas fa-long-arrow-right"></i></a><a class="home"> Home <i class="fal fa-angle-down"></i></a>
+		</div>
+		<div class="right_side">
+			<i class="fas fa-reply"></i> <i class="fas fa-share"></i>
+			<button class="home-btn">Save</button>
+		</div>
+	</div>
+	<div class="navbar" id="navbar">
+		<!-- <i class="fab fa-drupal"></i> -->
+
+		
+		<div class="main-nav">
+				<div class="nav-text">
+					<img src="img/hex-lab.png">
+				</div>
+			<ul>
+				<li>Our Values</li>
+				<li>Employee Stories</li>
+				<li>Locations</li>
+				<li>Benifits</li>
+				<li>Contact Us</li>
+			</ul>
+		</div>
+	</div>
+
+	<div class="container-fluid">
+		<p class="team">Join the team that’s changing how the world works</p>
+		<p class="sb-team">Grow your career in a place where you can make a difference — every day.</p>
+	</div>
+	<script>
+			window.onscroll = function() {myFunction()};
+
+			var navbar = document.getElementById("navbar");
+			var sticky = navbar.offsetTop;
+
+			function myFunction() {
+			  if (window.pageYOffset >= sticky) {
+			    navbar.classList.add("sticky")
+			  } else {
+			    navbar.classList.remove("sticky");
+			  }
+			}
+		</script>
+</body>
+</html>
